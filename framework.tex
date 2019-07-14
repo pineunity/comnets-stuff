@@ -6,7 +6,7 @@ Why need the orchestration and management framework for MEC? gaining tremendous 
 \subsection{Reference Architecture of MEC}
 
 There are many standard communities such as 3GPP, Open Fog Consortium, and European Telecommunications Standards Institute (ETSI), who are putting their efforts on defining the MEC architectures. 
-The reference architecture of MEC, which is initiated by ETSI, is the most popular and well-adopted by both researchers and industries. The ETSI MEC framework is divided into two levels: $i$) Mobile Edge System Level, and $ii$) Mobile Edge Host Level. The former inclues user interface components (i.e, Customer Facing System portal, User App, User App Life-cycle Management Proxy), Operations Support System, and Mobile Edge Orchestration. The latter consists of Mobile Edge Manager, Virtualization Infrastructure Manager, and Mobile Edge Host.
+The reference architecture of MEC, which is initiated by ETSI, is the most popular and well-adopted by both researchers and industries. The ETSI MEC framework is divided into two levels: $i$) Mobile Edge System Level, and $ii$) Mobile Edge Host Level. The former, which provides a global view of complete MEC system, inclues user interface components (i.e, Customer Facing System portal, User App, User App Life-cycle Management Proxy), Operations Support System, and Mobile Edge Orchestration. The latter, which managers the MEC specific functionality of a particular MEC host and the applications running on it, consists of Mobile Edge Manager, Virtualization Infrastructure Manager, and Mobile Edge Host.
 %framework standard orchestration framework (ETSI framework)
 
 
@@ -19,10 +19,9 @@ The reference architecture of MEC, which is initiated by ETSI, is the most popul
 \end{figure}
 
 
+The detailed design of the ETSI MEC framework is presented as follows. 
+First, users interact with the ETSI MEC framework through Customer Facing System portal (CFS) and User App. If the users such as tenants are registered and identified, their requests are directly made through the CFS portal. Meanwhile, the ETSI MEC framework also provides an interface to assist various applications, which is called User App.
 
-The detailed design of the ETSI MEC framework is presented as follows.
-
-First, to allow users to interact with the MEC frameworks, Customer Facing System (CFS) and User App are considered as dispatches for the users' reuqests. If the users are registered and identified, their requests are then forwarded to Operations Support System (OSS). Otherwise, the requests are handled by User App and then need to go through 
 
 \subsection{Implementation of the Orchestration and Management Frameworks for MEC}
 
