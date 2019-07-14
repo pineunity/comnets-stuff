@@ -20,7 +20,7 @@ The reference architecture of MEC, which is initiated by ETSI, is the most popul
 
 
 The detailed design of the ETSI MEC framework is presented as follows. 
-First, users interact with the ETSI MEC framework through Customer Facing System portal (CFS) and User App. If the users such as tenants are registered and identified, their requests are directly made through the CFS portal. Meanwhile, the ETSI MEC framework also provides an interface to assist various applications, which is called User App.
+First, users interact with the ETSI MEC framework through Customer Facing System portal (CFS) and User App. If the users such as tenants are registered and identified, their requests are directly made through the CFS portal. Meanwhile, the ETSI MEC framework also provides an interface to assist various applications, which is called User App. Since the requests from the applications can raise significant security concern, they are then forwarded to User App Life-cycle Management Proxy before being handled by the framework. 
 
 
 \subsection{Implementation of the Orchestration and Management Frameworks for MEC}
