@@ -25,30 +25,35 @@ First, users interact with the ETSI MEC framework through Customer Facing System
 
 \subsection{Implementation of the Orchestration and Management Frameworks for MEC}
 
-Since MEC introduces high impact on real use cases such as for 5G networks or Industries 4.0, various companies such as manufactoring, telecom, and retail put huge effort on designing their own frameworks for MEC. The most popular MEC frameworks include StarlingX, EdgeX, Akraino, Airship, OpenEdge, KubeEdge. The detail implementation of these frameworks are listed in table... (Different orchestration deployments for MEC)
+Since MEC introduces high impact on real use cases such as for 5G networks or Industries 4.0, various companies such as manufactoring, telecom, and retail put huge effort on designing their own frameworks for MEC. The most popular MEC frameworks include StarlingX, EdgeX, Akraino, Airship, OpenEdge, KubeEdge. The detail implementation of these frameworks are listed in table...
 
 \begin{itemize}
 
-\item \textit{\textit{Akraino}}
+\item \textit{\textit{Akraino}}:
 
-\item \textit{\textit{StarlingX}}
+\item \textit{\textit{StarlingX}}:
 
-\item \textit{\textit{EdgeX}} For IoT applications
+\item \textit{\textit{EdgeX}}: For IoT applications
 
-\item \textit{\textit{OpenEdge}}
+\item \textit{\textit{OpenEdge}}:
 
-\item \textit{\textit{KubeEdge}}
+\item \textit{\textit{KubeEdge}}:
 
-\item \textit{\textit{MobiledgeX}}
+\item \textit{\textit{MobiledgeX}}:
 
-\item \textit{\textit{vCO}}
+\item \textit{\textit{vCO}}:
 
 \end{itemize}
+
+\begin{table}
+
+\caption{Different orchestration deployments for MEC}
 
 \begin{turn}{90}
     %\begin{tabular}{ | m{1cm} | m{3cm} | m{1cm} | m{1cm} | m{1cm} |}
     %\begin{tabular}{ | l | l | p{5cm} | l | l | l |}
-    \begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} | p{8cm} | p{2.5cm} | }
+
+    \begin{tabular}{ | p{2cm} | p{2cm} | p{2.5cm} | p{8cm} | p{2.5cm} | }
     \hline
       & Foundation & Key Driver & Operational Objectives & Technologies Features\\ \hline
     Akraino & Linux & AT\&T, Intel, etc. & Support high-availability cloud services optimized for edge computing systems and applications. & OpenStack, K8s \\ \hline
@@ -57,7 +62,7 @@ Since MEC introduces high impact on real use cases such as for 5G networks or In
 
     Airship & OpenStack &  AT\&T, SKT, etc. & Provide for automated cloud provisioning and life cycle management in a completely declarative and predictable way. & OpenStack, K8s, Calico \\ \hline
 
-    EdgeX & Linux & Analog Devices, Dell, etc. & The simplification and standardization of the foundation for edge computing architectures in the Industrial IoT market, while still allowing the ecosystem to add significant value. & SDK, MQTT, SNMP, ModBus \\ \hline
+    EdgeX & Linux & Analog Devices, Dell, etc. & The simplification and standardization of the foundation for edge computing architectures in the Industrial IoT market. & SDK, MQTT, SNMP, ModBus \\ \hline
 
     OpenEdge & N/A & Baidu & Provide temporary offline, low-latency computing services, and include device connect, message routing, remote synchronization, function computing, AI inference, etc. & Docker, MQTT \\ \hline
 
@@ -69,6 +74,8 @@ Since MEC introduces high impact on real use cases such as for 5G networks or In
 
     vCO & Linux & Red Hat, China Unicom, etc. &  Produce an OpenDaylight-based reference architecture that, when combined with other
     functional elements (such as NFV) can support the delivery of Residential, Business and Mobile Services. & OpenStack, OpenDaylight \\ \hline
-    
     \end{tabular}
+
 \end{turn}
+
+\end{table}
